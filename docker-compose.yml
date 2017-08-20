@@ -1,0 +1,12 @@
+version: '3'
+services:
+  shairport:
+    image: protenhan/rpi-docker-shairport-sync
+    network_mode: "host"
+    devices:
+      - '/dev/snd:/dev/snd'
+    volumes:
+      - './shairport-sync.conf:/etc/shairport-sync.conf'
+    environment:
+      AIRPLAY_NAME: RaspiAir
+
