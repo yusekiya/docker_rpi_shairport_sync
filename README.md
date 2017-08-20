@@ -1,5 +1,7 @@
 # Shairport-sync on docker on raspi
 
+## Setup
+
 Add the following lines to `/boot/config.txt`
 
 ```txt
@@ -19,4 +21,6 @@ $ sudo amixer cset numid=3 1
 
 Maximize volume using alsamixer.
 
+## TODO
 
+- [ ] Confirm that all the above setup steps are relevant
