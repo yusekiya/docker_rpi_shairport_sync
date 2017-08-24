@@ -3,6 +3,7 @@ services:
   shairport:
     image: protenhan/rpi-docker-shairport-sync
     network_mode: "host"
+    restart: always
     devices:
       - '/dev/snd:/dev/snd'
     volumes:
