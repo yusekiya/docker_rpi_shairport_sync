@@ -19,7 +19,7 @@ After reboot, issue the following command
 $ sudo amixer cset numid=3 1
 ```
 
-Maximize volume using alsamixer.
+Maximize volume using alsamixer (in `alsa-utils` package).
 
 
 ## Setup for Raspberry pi with pHAT DAC
