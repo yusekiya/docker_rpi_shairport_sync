@@ -37,6 +37,7 @@ See [this web site][SetupPhatDac] for detail.
 
 - [ ] Confirm that all the above setup steps are relevant
 - [ ] Modify `shairport-sync.conf` for raspi with pHAT DAC
+- [ ] Integrate with snapcast
 
 
 [SetupPhatDac]: https://learn.pimoroni.com/tutorial/phat/raspberry-pi-phat-dac-install
