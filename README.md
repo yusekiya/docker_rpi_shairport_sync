@@ -28,7 +28,7 @@ Make sure that Raspbian is up-to-date.
 Run the following one-line installer
 
 ```bash
-# curl https://get.pimoroni.com/phatdac | bash
+$ curl https://get.pimoroni.com/phatdac | bash
 ```
 
 See [this web site][SetupPhatDac] for detail.
