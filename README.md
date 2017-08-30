@@ -12,6 +12,12 @@ docker build -t "rpi-shairport-sync-alpine" -f Dockerfile.arm32v6 .
 docker run -d --net host --device /dev/snd -e AIRPLAY_NAME=Docker rpi-shairport-sync-alpine
 ```
 
+## Run container for raspberry pi 3
+
+``` shell
+docker-compose up -d
+```
+
 ## Setup for Raspberry Pi 3
 
 Add the following lines to `/boot/config.txt`
