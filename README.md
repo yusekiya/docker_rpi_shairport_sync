@@ -9,7 +9,9 @@ docker build -t "rpi-shairport-sync-alpine" -f Dockerfile.arm32v6 .
 ## Run container for raspberry pi zero/w
 
 ``` shell
-docker run -d --net host --device /dev/snd -e AIRPLAY_NAME=Docker rpi-shairport-sync-alpine
+docker run -d --net host --device /dev/snd -e AIRPLAY_NAME=Docker \
+--restart always -v ./shairport-sync.conf:/etc/shairport-sync.conf \
+rpi-shairport-sync-alpine
 ```
 
 ## Run container for raspberry pi 3
